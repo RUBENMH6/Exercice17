@@ -24,7 +24,7 @@ public class Exercice17 {
                 min = 0;
             } System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
         } else {
-            System.out.println(h + " hours " + min + " minutes " + s + "seconds ");
+            System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
         }
 
 
