@@ -14,21 +14,16 @@ public class Exercice17 {
         System.out.println("Seconds: ");
         s= inputValue.nextInt();
 
-        s=s+1;
-
+        s++;
         if (s==60) {
-            min = min + 1;
+            min++;
             s = 0;
             if (min == 60) {
-                h = h + 1;
+                h++;
                 min = 0;
             } System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
         } else {
             System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
         }
-
-
-
-
     }
 }
