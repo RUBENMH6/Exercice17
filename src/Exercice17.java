@@ -21,9 +21,8 @@ public class Exercice17 {
             if (min == 60) {
                 h++;
                 min = 0;
-            } System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
-        } else {
-            System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
+            }
         }
+        System.out.println(h + " hours " + min + " minutes " + s + " seconds ");
     }
 }
